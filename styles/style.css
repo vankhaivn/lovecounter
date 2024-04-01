@@ -21,7 +21,7 @@ canvas {
 }
 
 #heart {
-    transition: opacity 1s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 #heart.fade-out {
     opacity: 0;
@@ -29,7 +29,7 @@ canvas {
 .container {
     opacity: 0;
     color: white;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 .container.show {
     opacity: 1;

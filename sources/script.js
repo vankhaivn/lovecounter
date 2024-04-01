@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         canvas.classList.add("fade-out");
         container.classList.add("show");
-    }, 1000)
+    }, 3000)
 })
 
 document.addEventListener('mousemove', function (e) {

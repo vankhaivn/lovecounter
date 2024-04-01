@@ -3,7 +3,7 @@
     min-height: 100vh;
     color: #fff;
     position: relative;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .clock-container {
@@ -13,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
         rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -28,7 +28,7 @@
     left: -50px;
     top: -50px;
     z-index: -1;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .clock-container::after {
@@ -41,7 +41,7 @@
     right: -30px;
     bottom: -50px;
     z-index: -1;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .clock {
@@ -76,7 +76,7 @@
     height: 100%;
     border-radius: inherit;
     background-color: inherit;
-    animation: fade 1s forwards infinite linear;
+    animation: fade 3s forwards infinite linear;
 }
 
 @keyframes fade {
@@ -133,7 +133,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .start-date {
@@ -171,7 +171,7 @@
     bottom: -100%;
     transform: translate(-50%, -70%);
     z-index: -1;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
     --c: #f41b75;
     width: 64px;
     aspect-ratio: 1;
